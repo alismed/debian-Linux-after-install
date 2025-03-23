@@ -150,8 +150,11 @@ $ sudo apt install -y git tig
 $ ssh-keygen -t rsa -b 4096 -C "<your_email@example.com>"
 cat ~/.ssh/id_rsa.pub
 
-# default editor
+# default settings
+git config --global user.name ""
+git config --global user.email myemaill@provider.com
 git config --global core.editor vim
+git config --global init.defaultBranch main
 ```
 
 **Git Delta**
