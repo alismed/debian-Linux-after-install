@@ -164,6 +164,13 @@ sudo dpkg -i git-delta_0.16.5_i386.deb
 ```
 Configure [~/.gitconfig](https://dandavison.github.io/delta/configuration.html) file
 
+**Act**
+Run your GitHub Actions locally
+```bash
+curl -s https://raw.githubusercontent.com/nektos/act/master/install.sh | sudo bash
+```
+
+
 <a id="languages"></a>
 **asdf**
 ```
